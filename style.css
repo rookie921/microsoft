@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+.nav{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nav1 img{
+    width: 108px;
+    margin: 10px;
+}
+.nav2{
+    margin-right: 250px;
+}
+.nav2 ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+.nav2 li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav2 li:hover{
+    text-decoration: underline;
+}
+.nav2 ul a{
+    text-decoration: none;
+}
+.nav3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+}
+.nav3 span{
+    margin: 10px;
+    padding: 5px;
+}
+.body-sec{
+    width: 100%;
+    height: 580px;
+    animation: bgchange 15s ease-in infinite ;
+    background-size: cover;
+    animation-direction: alternate;
+}
+@keyframes bgchange {
+    0%{
+        background-image: url(img/body/body2.jpg);
+    }
+    50%{
+        background-image: url(img/body/body1.jpg);
+    }
+    100%{
+        background-image: url(img/body/body2.jpg);
+    }
+    
+}
+.body-sec-box{
+    height: 300px;
+    width: 350px;
+    position: relative;
+    left: 120px;
+    top: 80px;
+}
+.learn-more-btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.learn-more-btn:hover{
+    background-color:  rgb(42, 8, 136);;
+}
+#new{
+    padding: 5px;
+    width: 50px;
+    background-color: orange;
+}
+.devices{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 80px 0px 40px 0px;
+}
+.devices-list{
+    padding: 12px;
+    color: lightblue;
+}
+.devices-list img{
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.products{
+    display: flex;
+    padding: 15px 80px 20px 80px;
+}
+.product-main{
+    padding: 8px;
+    margin: 10px;
+    /* border: 1px solid rgb(236, 227, 227); */
+    box-shadow: 2px 2px 2px 2px rgb(235, 227, 227);
+}
+.product-img img{
+    width: 270px;
+}
+.product-btn{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    font-weight:800;
+    padding: 13px;
+    margin-left: 18px;
+}
+.product-btn:hover{
+    background-color: rgb(42, 8, 136);
+}
+.product-btn2{
+    color: skyblue;
+    font-size: 20px;
+    font-weight:1000;
+    font-size: 16px;
+}
+.product-btn2 a{
+    text-decoration: none;
+}
+.product-head, .product-description{
+    padding: 20px;
+}
+.copilot{
+    width: 100%;
+    height: 550px;
+    background-image: url(img/body/copilot.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.copilottxt{
+    height: 300px;
+    width: 280px;
+    position: relative;
+    left: 170px;
+    top: 100px;
+}
+.copilottxt button{
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.copilottxt button:hover{
+    background-color: rgb(42, 8, 136);
+}
+.follow{
+    padding: 50px;
+    margin-left: 50px;
+}
+.follotxt span{
+    padding: 10px;
+}
